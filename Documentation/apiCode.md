@@ -15,3 +15,6 @@ The apiCode module operates only one functionaliy: retrieve or create an api cod
   apicode = apiCode.getApiCode($username, $password)
   print apicode
 ```
+```
+>>> 0123456789abcdefghijklmnopqrstuvw
+```
