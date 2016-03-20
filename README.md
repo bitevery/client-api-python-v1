@@ -14,5 +14,5 @@ Manual installation
 ```
 ## Module Structure
 The main module is called bitevery. The main module consists of the following sub-modules:
-*tip module
-*apiCode module
+* tip module
+* apiCode module
