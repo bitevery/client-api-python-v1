@@ -14,5 +14,8 @@ Manual installation
 ```
 ## Module Structure
 The main module is called bitevery. The main module consists of the following sub-modules:
-* tip module
-* apiCode module
+* tip
+* apiCode
+
+## API Code Required
+In order to hide the user information in the API calls as much as possible, bitevery requires an API code to access all the service endpoints. API is available by using apiCode module.
