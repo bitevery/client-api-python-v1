@@ -8,7 +8,11 @@ Installation via pip
 ```
 Manual installation
 ```
-  $ git clone https://github.com/blockchain/api-v1-client-python
-  $ cd api-v1-client-python
+  $ git clone https://github.com/bitevery/client-api-python-v1
+  $ cd client-api-python-v1
   $ python setup.py install
 ```
+## Module Structure
+The main module is called bitevery. The main module consists of the following sub-modules:
+  *tip module
+  *apiCode module
