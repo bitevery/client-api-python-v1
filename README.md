@@ -15,7 +15,7 @@ Manual installation
 ## Module Structure
 The main module is called bitevery. The main module consists of the following sub-modules:
 * tip
-* apiCode ([docs](https://github.com/bitevery/client-api-python-v1/blob/master/Documentation/apiCode.md))
+* apiCode ([docs](Documentation/apiCode.md))
 
 ## API Code Required
 In order to hide the user information in the API calls as much as possible, bitevery requires an API code to access all the service endpoints. API is available by using apiCode module.
