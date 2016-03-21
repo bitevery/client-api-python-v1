@@ -1,6 +1,6 @@
 # client-api-python-v1
-Official client API to interact with www.bitevery.com
-Support Python 2.x
+Official client API to interact with www.bitevery.com.
+(support Python 2.x)
 
 ## Installation
 Installation via pip
