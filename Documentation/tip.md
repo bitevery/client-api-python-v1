@@ -28,3 +28,13 @@ HTML format
 ```
 >>> <div id="bitEveryTip2345d"></div></script><script src="https://www.bitevery.com/be-js/tip_button.js"></script><script>tip_btn_setup(6,"6303d",1,30,30);</script>
 ```
+QRCODE format
+``` python
+  tip_Single.setFormat("QRCODE")
+  tip_Single.getTipLink('0123456789abcdefghijklmnopqrstuvw')
+```
+```
+>>> https://www.bitevery.com/restAPI/V1.0/qrcode.php?username=bitevery&tid=9999999&locale=en-us
+```
+Go to the link above, an image of the qrcode will show up
+![QRCODE](https://www.bitevery.com/restAPI/V1.0/qrcode.php?username=bitevery&tid=9999999&locale=en-us)
