@@ -38,3 +38,14 @@ QRCODE format
 ```
 Go to the link above, an image of the qrcode will show up
 ![QRCODE](image/qr_code_en_us.png)
+QRCODE format with locale
+``` python
+  tip_Single.setFormat("QRCODE")
+  tip_Single.setLocale("zh")
+  tip_Single.getTipLink('0123456789abcdefghijklmnopqrstuvw')
+```
+```
+>>> https://www.bitevery.com/restAPI/V1.0/qrcode.php?username=bitevery&tid=9999999&locale=zh
+```
+Go to the link above, an image of the qrcode will show up
+![QRCODE](image/qr_code_zh.png)
