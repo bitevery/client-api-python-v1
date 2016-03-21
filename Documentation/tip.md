@@ -63,3 +63,5 @@ Go to the link above, an image of the qrcode will show up
 ```
 >>> https://www.bitevery.com/tip.php?tid=88888888
 ```
+#### HTML Format and QRCODE Format
+See the examples above for single receiver.
