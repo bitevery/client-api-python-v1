@@ -37,4 +37,4 @@ QRCODE format
 >>> https://www.bitevery.com/restAPI/V1.0/qrcode.php?username=bitevery&tid=9999999&locale=en-us
 ```
 Go to the link above, an image of the qrcode will show up
-![QRCODE](https://www.bitevery.com/restAPI/V1.0/qrcode.php?username=bitevery&tid=9999999&locale=en-us)
+![QRCODE](image/qr_code_en_us.png)
