@@ -20,7 +20,7 @@ A string of tip link in desired format. If the format is QRCODE, the return is a
 ```
 >>> https://www.bitevery.com/tip.php?tid=9999999
 ```
-HTML format
+#### HTML format
 ``` python
   tip_Single.setFormat("HTML")
   tip_Single.getTipLink('0123456789abcdefghijklmnopqrstuvw')
@@ -28,7 +28,7 @@ HTML format
 ```
 >>> <div id="bitEveryTip2345d"></div></script><script src="https://www.bitevery.com/be-js/tip_button.js"></script><script>tip_btn_setup(6,"6303d",1,30,30);</script>
 ```
-QRCODE format
+#### QRCODE format
 ``` python
   tip_Single.setFormat("QRCODE")
   tip_Single.getTipLink('0123456789abcdefghijklmnopqrstuvw')
@@ -38,7 +38,7 @@ QRCODE format
 ```
 Go to the link above, an image of the qrcode will show up
 ![QRCODE](image/qr_code_en_us.png)
-QRCODE format with locale
+#### QRCODE format with locale
 ``` python
   tip_Single.setFormat("QRCODE")
   tip_Single.setLocale("zh")
