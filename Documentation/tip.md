@@ -6,6 +6,10 @@ The tip module supports tip link creation for single or multiple receiver(s) in 
 * Format (optional): URL, HTML and QRCODE. Default is URL.
 * Locale (optional): effective only if the format is QRCODE. Default is 'en-us'. The other option is 'zh'.
 * Distribution (optional): key-value pair for multiple receivers. See example below.
+  * receiver: the receiver's email address. 
+  * percentage: the percentage of distribution for the receiver
+  * receriver-percentage have to pair up like this: receiver1=abc@123.com, percent1=50, receiver=def@456.com, percent2=50
+  * the sum of all percentage must be 100.
 
 ## Output Return
 A string of tip link in desired format. If the format is QRCODE, the return is an address to fetch the image.
@@ -49,3 +53,13 @@ Go to the link above, an image of the qrcode will show up
 ```
 Go to the link above, an image of the qrcode will show up
 ![QRCODE](image/qr_code_zh.png)
+
+### Multiple Receivers
+``` python
+  from bitevery import tip
+  tip_Multiple = tip.TipService()
+  tip_Multiple.getTipLink('0123456789abcdefghijklmnopqrstuvw', receiver1=abc@123.com, percent1=50, receiver2=def@245.com, percent2=50)
+```
+```
+>>> https://www.bitevery.com/tip.php?tid=88888888
+```
