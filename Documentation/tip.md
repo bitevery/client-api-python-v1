@@ -18,7 +18,7 @@ A string of tip link in desired format. If the format is QRCODE, the return is a
 ### Single Receiver
 ``` python
   from bitevery import tip
-  tip_Single = tip.TipService()
+  tip_Single = tip.tipService()
   tip_Single.getTipLink('0123456789abcdefghijklmnopqrstuvw')
 ```
 ```
